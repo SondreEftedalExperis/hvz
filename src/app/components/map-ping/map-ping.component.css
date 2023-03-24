@@ -1,0 +1,13 @@
+.map {
+    height: 40vh;
+    width: 100%;
+    z-index: 0;
+}
+
+.getPos {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 38px;
+    text-align: center;
+}

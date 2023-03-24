@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Press+Start+2P&display=swap');
+
+:root {
+    --green: #698362;
+    --purple: #84414D;
+    --light-grey: #D9D9D9;
+    --grey: #9F9F9F;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar{
+width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgba(0, 0, 0, 0.2);
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("./assets/images/3825.jpg");
+    background-position: 50% 70%;
+    background-size: 220vh 110vh;
+}
+
+* {
+    font-family: 'Gugi';
+}
+
+th {
+    font-size: min(1vmax, 20px);
+}
+
+.scalableFont {
+    font-size: min(1vmax, 20px);
+}
+
+.seeThrough{
+    background: transparent;
+}
+
+.seeThrough:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mainGreen {
+    background-color: var(--green);
+}
+
+.mainPurple {
+    background-color: var(--purple);
+}
+
+.headerFont {
+    font-family: 'Press Start 2P';
+}
+
+.regularFont {
+    font-family: 'Gugi';
+}
