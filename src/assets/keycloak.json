@@ -1,5 +1,5 @@
 {
-  "realm": "HvZ",
+  "realm": "hvz",
   "auth-server-url": "https://authhvz.azurewebsites.net/auth",
   "ssl-required": "external",
   "resource": "HvZ-App",
